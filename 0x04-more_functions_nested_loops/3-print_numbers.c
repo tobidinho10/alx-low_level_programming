@@ -1,16 +1,32 @@
 #include "main.h"
 
+
+
 /**
- * print_number - print 0-9
+
+ * print_numbers - print 0-9
+
  *
+
  * Return: nothing
+
  **/
 
-void print_numbers(void)
-{
-	char i;
 
-	for (i = '0'; i <= '9'; i++)
-		_putchar(i);
-	 _putchar('\n');
+
+void print_numbers(void)
+  
+{
+  
+  char i;
+  
+
+  
+  for (i = '0'; i <= '9'; i++)
+    
+    _putchar(i);
+  
+  _putchar('\n');
+  
 }
+
